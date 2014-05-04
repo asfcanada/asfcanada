@@ -1440,6 +1440,20 @@ address span {
 {
   margin:20px 0 0 0
 }
+.contact{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.contact h3{
+    font-size: medium;
+}
+.contact-address{
+    width: 475px;   
+}
+.contact-address dd{
+ 
+}
+
 
 #contact-form fieldset {
   border: 0px;
@@ -2317,4 +2331,11 @@ text-decoration: none;
 
 .plus:HOVER{
 color: white;
+}
+
+.position1{
+   display: inline-block;
+   width: 350px;
+   margin-left: 5px;
+   margin-right: 5px;
 }
