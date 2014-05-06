@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="3.2" client="site" method="upgrade">
+	<name>lirePlus Historique</name>
+	<author>Ken Le</author>
+	<license>GNU General Public License version 2 or later</license>
+	<version>1.0</version>
+	<description>Lire Plus Module par ASFCANADA</description>
+
+	<files>
+		<filename module="mod_lirePlusHistorique">mod_lirePlusHistorique.php</filename>
+		<filename module="mod_lirePlusHistorique">index.html</filename>
+		<filename module="mod_lirePlusHistorique">mod_lirePlusHistorique.xml</filename>
+		<folder module="mod_lirePlusHistorique">tmpl</folder>
+		<folder module="mod_lirePlusHistorique">css</folder>
+	</files>
+	
+	<config>
+	<fields name="params">
+		<fieldset name="Settings">
+				<field name="title" type="text" default="Your Title" label="TITLE" description="YOUR_TITLE" />
+				<field name="description" type="textarea" default="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor." label="DESCRIPTION" description="DESCRIPTION" rows="4" cols="30" />
+				<field name="textcolor" type="color" default="#FFFFFF" label="TEXTCOLOR" description="YOUR_TEXTCOLOR" />		
+				<field name="Directory" type="media" default = "images/" label="IMAGE_DIRECTORY"  description = "IMAGE_DIRECTORY" size="30" />		
+				<field name="pxHeight" type="text" default = "200" label="HEIGHT"  description = "HEIGHT_IN_PIXELS" size="10" />
+				<field name="pxWidth" type="text" default = "200" label="WIDTH"  description = "WIDTH_IN_PIXELS" size="10" />
+				<field name="link" type="text" default = "http://www.wesek.de" label="LINK"  description = "LINK_DESCRIPTION" size="30" />
+				<field name="bgcolor" type="color" default="#006699" label="BACKGROUND" description="BACKGROUND_COLOR" />
+				<field name="readMore" type="text" default="Read More" label="READMORE" description="READMORE" />
+		</fieldset>
+	</fields>
+	</config>	
+</extension>

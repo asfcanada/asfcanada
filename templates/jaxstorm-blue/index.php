@@ -129,6 +129,13 @@ s
 			</div>
 			<?php endif; ?>
 
+			<?php if ($this->countModules('position-12_right')): ?>
+			<div id="content-top-right">
+                <jdoc:include type="modules" name="position-12_right" style="xhtml" />
+            </div>
+			<?php endif; ?>
+
+
 			<jdoc:include type="message" />
 			<jdoc:include type="component" />
 		</div>

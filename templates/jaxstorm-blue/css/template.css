@@ -2318,3 +2318,34 @@ text-decoration: none;
 .plus:HOVER{
 color: white;
 }
+
+
+/********************************************************************
+LirePlusHistorique module
+*******************************************************************/
+
+.LirePlusHistorique {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.newsHistorique1_h2 {
+    padding-top: 15px;
+    text-align: left;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14.5px;
+    color: #909090;
+}
+
+.lirePlus_img img {
+    margin: 0 16px 50px 0;
+    padding-top: 12px;    
+    height: 152px;
+    width: 183px;
+    float: left;
+}
+
+.newsLirePlusHistorique_desc {
+    padding-top: 12px;    
+}
