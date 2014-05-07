@@ -36,16 +36,15 @@ $readMore				= $params->get('readMore', 'ReadMore');
 						<img src="<?php echo $Directory; ?>"/>
 					</div>
 					<div class="newsLirePlusHistorique_desc"><?php echo $description; ?></div>
-				</p>
-				
-				<a href="<?php echo $link; ?>" class="info"></a>
-				
+				</p>			
 			</div>
 		</div>  
 	</div>
-	<a target="_blank" href="http://www.facebook.com/permalink.php?story_fbid=609123462512850&amp;id=171343846290816">
-	<div class="plus bg_orange">+</div>
-	</a>
+	<div id="plusHistorique">
+		<a href="<?php echo $link; ?>" class="info">
+			<div class="plusHistorique bg_orange">+</div>
+		</a>
+	</div>
 </div>
 
 
