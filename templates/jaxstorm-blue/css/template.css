@@ -2324,11 +2324,6 @@ color: white;
 LirePlusHistorique module
 *******************************************************************/
 
-.LirePlusHistorique {
-    margin-left: 5px;
-    margin-right: 5px;
-}
-
 .newsHistorique1_h2 {
     padding-top: 15px;
     text-align: left;
@@ -2339,7 +2334,7 @@ LirePlusHistorique module
 }
 
 .lirePlus_img img {
-    margin: 0 16px 50px 0;
+    margin-right: 15px;
     padding-top: 12px;    
     height: 152px;
     width: 183px;
@@ -2347,5 +2342,39 @@ LirePlusHistorique module
 }
 
 .newsLirePlusHistorique_desc {
-    padding-top: 12px;    
+    padding-top: 12px; 
+    text-align: justify;   
+}
+
+.lirePlusHistorique {
+  display:inline-block;
+  margin-left: 3px;
+  margin-right: 200px;
+}
+/*
+.gauche {
+  float: left;
+}
+                          
+.droite {
+  float:right;
+}
+*/
+.plusHistorique{
+  height: 50px;
+  width: 50px;
+  left:0;
+  bottom:0;
+  font-size: 3em;
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+  cursor: pointer;
+  z-index: 1000;
+  margin-left: 3px;
+}
+
+#plusHistorique a {
+  text-decoration: none;  
 }
