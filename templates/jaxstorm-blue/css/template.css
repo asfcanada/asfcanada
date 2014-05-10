@@ -2362,7 +2362,7 @@ page FAQ
   display: inline-block;  
 }
 .imageFAQ{
-   text-align: center; 
+   text-align: center;
 }
 .texteFAQ{
     margin-left: 130px;
@@ -2370,6 +2370,28 @@ page FAQ
 .pageFAQ{
     
 }
+/****************************************
+page espace parrainage
+***********************************************************/
+.pageEspParr{
+    margin-left: 85px;
+    margin-right: 20px;
+}
+.position-imageEspParr{
+    width: 550px;
+    float: left;
+}
+.position-texteEspParr{
+     width: 370px;
+    float: right;
+    text-align: justify;
+    margin-top: 5px;
+}
+.position-texteEspParr a,p{
+    text-decoration: none;
+    font-weight: bold;
+}
+
 /********************************************************************
 LirePlusHistorique module
 *******************************************************************/
