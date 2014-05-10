@@ -405,7 +405,9 @@ hr {
   display: inline;
   padding-left: 12px;
   padding-right: 12px;
+
 }
+
 /*
 #topnav ul.menu li:first-child {
   border: 0;
@@ -1440,6 +1442,20 @@ address span {
 {
   margin:20px 0 0 0
 }
+.contact{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.contact h3{
+    font-size: medium;
+}
+.contact-address{
+    width: 475px;   
+}
+.contact-address dd{
+ 
+}
+
 
 #contact-form fieldset {
   border: 0px;
@@ -2186,7 +2202,7 @@ z-index: 1000;*/
   
 }
 .jaune_trans{
-  cursor: pointer;
+/*  cursor: pointer;*/
   bottom: 0px;
   width: 170px;
   height: 150px;
@@ -2205,7 +2221,7 @@ height:200px;
 width:200px;
 color: #f79320;
 z-index: 2;*/
-  cursor: pointer;
+/*  cursor: pointer;*/
   bottom: 0px;
   width: 170px;
   height: 153px;
@@ -2320,6 +2336,40 @@ color: white;
 }
 
 
+/****************************************
+page misson et valeur
+***********************************************************/
+.page{
+    margin-left: 30px;
+}
+.position-image{
+    width: 450px;
+    float: left;
+}
+.position-texte{
+     width: 600px;
+    float: right;
+    text-align: justify;
+}
+.position{
+    display: inline-block;
+    width: 250px;
+}
+/****************************************
+page FAQ
+***********************************************************/
+.position-imageFAQ{
+  display: inline-block;  
+}
+.imageFAQ{
+   text-align: center; 
+}
+.texteFAQ{
+    margin-left: 130px;
+}
+.pageFAQ{
+    
+}
 /********************************************************************
 LirePlusHistorique module
 *******************************************************************/

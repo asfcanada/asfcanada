@@ -21,7 +21,7 @@ class JConfig {
 	public $secret = 'ItGIPWDp1krx5Cf8';
 	public $gzip = '0';
 	public $error_reporting = 'default';
-	public $helpurl = 'http://help.joomla.org/proxy/index.php?option=com_help&amp;keyref=Help{major}{minor}:{keyref}';
+	public $helpurl = 'http://help.joomla.org/proxy/index.php?option=com_help&keyref=Help{major}{minor}:{keyref}';
 	public $ftp_host = '127.0.0.1';
 	public $ftp_port = '21';
 	public $ftp_user = '';
@@ -30,7 +30,7 @@ class JConfig {
 	public $ftp_enable = '0';
 	public $offset = 'UTC';
 	public $mailer = 'mail';
-	public $mailfrom = 'soulgaye@gmail.com';
+	public $mailfrom = 'siakjunior@gmail.com';
 	public $fromname = 'asfcanada';
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = '0';
@@ -57,4 +57,10 @@ class JConfig {
 	public $tmp_path = 'C:\\wamp\\www\\asfcanada/tmp';
 	public $lifetime = '15';
 	public $session_handler = 'database';
+	public $MetaRights = '';
+	public $sitename_pagetitles = '0';
+	public $force_ssl = '0';
+	public $feed_email = 'author';
+	public $cookie_domain = '';
+	public $cookie_path = '';
 }
