@@ -122,11 +122,20 @@ s
 			<?php if ($this->countModules('position-12')): ?>
 			<div id="content-top">
                 <div class="content-item"><jdoc:include type="modules" name="position-12" style="xhtml" /></div>
-                <div class="content-item content-esp"><jdoc:include type="modules" name="position-121" style="xhtml" /></div>
+                <div class="content-item lirePlusHistorique gauche"><jdoc:include type="modules" name="position-12_left" style="xhtml" /></div>
+                <div class="content-item lirePlusHistorique droite"><jdoc:include type="modules" name="position-12_right" style="xhtml" /></div>
+	            <div class="content-item content-esp"><jdoc:include type="modules" name="position-121" style="xhtml" /></div>
                 <div class="content-item content-esp"><jdoc:include type="modules" name="position-122" style="xhtml" /></div>
                 <div class="content-item content-esp"><jdoc:include type="modules" name="position-123" style="xhtml" /></div>
                 <div class="content-item content-esp" id ="moduleDon"><jdoc:include type="modules" name="position-124" style="xhtml" /></div>
 			</div>
+			<?php endif; ?>
+
+			<?php if ($this->countModules('position-12_left')): ?>
+			<div id="content-top">
+                <div class="lirePlusHistorique"><jdoc:include type="modules" name="position-12_left" style="xhtml" /></div>
+                <div class="lirePlusHistorique"><jdoc:include type="modules" name="position-12_right" style="xhtml" /></div>
+	        </div>
 			<?php endif; ?>
 
 			<jdoc:include type="message" />
