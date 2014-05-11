@@ -2391,6 +2391,33 @@ page espace parrainage
     text-decoration: none;
     font-weight: bold;
 }
+/****************************************
+page parrainer dés maintenant
+***********************************************************/
+.pageParrDesMtn{
+    margin-left: 85px;
+    margin-right: 20px;
+}
+.position-imageParrDesMtn{
+    width: 600px;
+    float: left;
+}
+.texte{
+    float: left;
+    background-color: #f79320;
+    color: white;
+    padding: 15px;
+    margin-top: 10px;
+    width: 530px;
+    height: 185px;
+/*    font-size: 16px;*/
+}
+.position-texteParrDesMtn{
+     width: 370px;
+    float: right;
+    text-align: justify;
+    margin-top: 5px;
+}
 
 /********************************************************************
 LirePlusHistorique module
