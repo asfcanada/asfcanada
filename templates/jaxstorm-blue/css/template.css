@@ -2418,11 +2418,33 @@ page parrainer dés maintenant
     text-align: justify;
     margin-top: 5px;
 }
+/****************************************
+page parrainer une famille
+***********************************************************/
+.position-imageParrFamille{
+  display: inline-block;  
+}
+.pageParrFamille{
+    margin-left: 50px;
+    margin-right: 60px;
+}
+.position-texteG{
+    float: left;
+    width: 470px;
+    text-align: justify;
+    font-weight: bold;
+}
+.position-texteD{
+    float: right;
+    width: 470px;
+    text-align: justify;
+    font-weight: bold;
+}
 
 /********************************************************************
 LirePlusHistorique module
 *******************************************************************/
-
+/*
 .newsHistorique1_h2 {
     padding-top: 15px;
     text-align: left;
@@ -2450,7 +2472,7 @@ LirePlusHistorique module
   margin-left: 3px;
   margin-right: 200px;
 }
-/*
+
 .gauche {
   float: left;
 }
@@ -2458,7 +2480,7 @@ LirePlusHistorique module
 .droite {
   float:right;
 }
-*/
+
 .plusHistorique{
   height: 50px;
   width: 50px;
@@ -2476,4 +2498,4 @@ LirePlusHistorique module
 
 #plusHistorique a {
   text-decoration: none;  
-}
+}*/
