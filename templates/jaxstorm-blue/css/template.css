@@ -2391,6 +2391,23 @@ page espace parrainage
     text-decoration: none;
     font-weight: bold;
 }
+.box{
+    width: 410px;
+    float: right;
+    text-align: justify;
+    margin-top: 5px;  
+}
+.titre{
+    background-color: #f79320;
+    color: #fff;
+    text-align: right;
+    font-size: 15px;
+    padding-left: 15px;
+}
+.contenuBox{
+    margin-left: 15px;
+    margin-right: 30px;
+}
 /****************************************
 page parrainer dés maintenant
 ***********************************************************/
