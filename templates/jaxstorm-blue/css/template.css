@@ -2404,6 +2404,19 @@ page espace parrainage
     font-size: 15px;
     padding-left: 15px;
 }
+.alignTitre{
+    display: inline-block;
+    width: 350px;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+}
+.alignTitre a{
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 30px;
+}
 .contenuBox{
     margin-left: 15px;
     margin-right: 30px;
@@ -2456,6 +2469,33 @@ page parrainer une famille
     width: 470px;
     text-align: justify;
     font-weight: bold;
+}
+/****************************************
+page offre de stage
+***********************************************************/
+.pageOffreStage{
+    margin-left: 85px;
+    margin-right: 20px;
+}
+.position-imageOffreStage{
+    width: 460px;
+    float: left;
+}
+.position-texteOffreStage{
+     width: 500px;
+    float: right;
+    text-align: justify;
+    margin-top: 5px;
+}
+.backgroundTexte{
+    background-color: #F8F8F8;
+    padding: 10px;
+}
+.backgroundPostulez{
+    background-color: #f79320;
+    margin-left: 200px;
+    width: 90px;
+    color: white;
 }
 
 /********************************************************************
